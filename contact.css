@@ -1,0 +1,40 @@
+
+/* CONTACT */
+
+#contact {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 2rem;
+    border: gray 1px solid;
+    box-shadow: 8px 8px 10px grey;
+    margin: 2rem auto;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+    height: 2rem;
+}
